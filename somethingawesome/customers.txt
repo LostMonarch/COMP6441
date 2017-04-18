@@ -1,5 +1,5 @@
-John Smith
-Patrick Richardson
-Doris Barker
-Elizabeth Riley
-Stephen Gray
+John        1   1000
+Patrick     2   2000
+Doris       3   3000
+Elizabeth   4   4000
+Stephen     5   5000

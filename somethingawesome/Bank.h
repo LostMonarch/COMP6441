@@ -13,7 +13,7 @@ using namespace std;
 class Bank {
     public:
         void customersFromFile(string f);
-        void addCustomer(Customer c);
+        void addCustomer(Customer &c);
         void start();
         void addFraudDetector(detectorTypeID id);
         void trainFromFile(string f);
