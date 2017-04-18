@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.cpp
+Bank.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
+iostream
+-
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
 Customer.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h

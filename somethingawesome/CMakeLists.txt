@@ -6,7 +6,8 @@ project (Awesome)
 
 # Pull in sources and headers
 set(SOURCES 
-    main.cpp    
+    main.cpp
+    Bank.cpp
 )
 
 set(HEADERS

@@ -11,7 +11,7 @@ typedef enum detectors {
 
 class FraudDetector {
     public:
-        virtual void detect();
+        //virtual void detect();
     private:
         detectorTypeID typeID;
 };

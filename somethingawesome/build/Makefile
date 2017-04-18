@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Bank.o: Bank.cpp.o
+
+.PHONY : Bank.o
+
+# target to build an object file
+Bank.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Bank.cpp.o
+.PHONY : Bank.cpp.o
+
+Bank.i: Bank.cpp.i
+
+.PHONY : Bank.i
+
+# target to preprocess a source file
+Bank.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Bank.cpp.i
+.PHONY : Bank.cpp.i
+
+Bank.s: Bank.cpp.s
+
+.PHONY : Bank.s
+
+# target to generate assembly for a file
+Bank.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Bank.cpp.s
+.PHONY : Bank.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... Bank.o"
+	@echo "... Bank.i"
+	@echo "... Bank.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
