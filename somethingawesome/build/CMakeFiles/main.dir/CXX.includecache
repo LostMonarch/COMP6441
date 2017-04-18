@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
+Customer.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
+FraudDetector.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/FraudDetector.h
+string
+-
+unordered_map
+-
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
 CustomerProfile.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
@@ -26,6 +36,8 @@ vector
 transaction.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/FraudDetector.h
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
 vector
 -
@@ -39,12 +51,8 @@ string
 /Users/Connor/Documents/COMP3441/src/somethingawesome/main.cpp
 iostream
 -
-Customer.h
-/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
-CustomerProfile.h
-/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
-TransactionHistory.h
-/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
+Bank.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 ctime

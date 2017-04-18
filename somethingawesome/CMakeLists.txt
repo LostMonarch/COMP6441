@@ -16,6 +16,8 @@ set(HEADERS
      vendorType.h
      TransactionHistory.h
      Customer.h
+     Bank.h
+     FraudDetector.h
 )
 
 # Include headers

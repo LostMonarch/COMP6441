@@ -1,13 +1,12 @@
 // Behavioural credit card fraud detector - main routine
 #include <iostream>
-
-#include "Customer.h"
-#include "CustomerProfile.h"
-#include "TransactionHistory.h"
+#include "Bank.h"
 
 int main(int argc, char* argv[]) {
+    Bank b = 
 
-    cout << "This is the credit card fraud detector!\n";
+    cout << "Starting credit card fraud detector...\n";
+
 
     return 0;
 }
