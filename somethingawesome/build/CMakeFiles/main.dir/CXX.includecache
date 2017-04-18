@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
+string
+-
+iostream
+-
+vector
+-
+transaction.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
+string
+-
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/main.cpp
+iostream
+-
+card.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
+CustomerProfile.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
+transaction.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
+ctime
+-
+vendorType.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h
+
