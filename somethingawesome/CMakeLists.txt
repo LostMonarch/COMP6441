@@ -14,6 +14,7 @@ set(HEADERS
      card.h
      transaction.h
      vendorType.h
+     TransactionHistory.h
 )
 
 # Include headers

@@ -4,10 +4,10 @@
 
 using namespace std;
 
-class transactionHistory {
+class TransactionHistory {
     public:
         void addTransaction(transaction t);
         void detect();
     private:
         vector<transaction> history;
-}
+};

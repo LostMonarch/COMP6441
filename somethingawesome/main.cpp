@@ -1,9 +1,8 @@
 // Behavioural credit card fraud detector - main routine
 #include <iostream>
 
-#include "card.h"
 #include "CustomerProfile.h"
-#include "transaction.h"
+#include "TransactionHistory.h"
 
 int main(int argc, char* argv[]) {
 

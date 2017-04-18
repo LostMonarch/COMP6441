@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h 
+CXX_INCLUDES = -I/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h -I/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h 
 

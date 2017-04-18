@@ -16,19 +16,19 @@ vector
 transaction.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 
-/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
-string
+/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
+vector
 -
+transaction.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/main.cpp
 iostream
 -
-card.h
-/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
 CustomerProfile.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
-transaction.h
-/Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
+TransactionHistory.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 ctime
