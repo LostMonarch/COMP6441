@@ -3,6 +3,6 @@
 #include <iostream>
 
 // Use a file to find list of customers and add them to the Bank
-void Bank::customersFromfile(string f) {
-    cout << "Adding customers from file\n";
+void Bank::customersFromFile(string f) {
+    
 }

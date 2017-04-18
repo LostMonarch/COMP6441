@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
     cout << "Starting credit card fraud detector...\n";
 
     // Use the first command line argument to add a list of customers to the bank
-    
+    b->customersFromFile(argv[1]);
 
     return 0;
 }
