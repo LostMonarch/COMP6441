@@ -15,6 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../transaction.h"
   "../vendorType.h"
   "../TransactionHistory.h"
+  "../Customer.h"
   )
 
 # Targets to which this target links.

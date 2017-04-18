@@ -7,6 +7,9 @@
 // CustomerProfile class declaration
 using namespace std;
 
+#ifndef CUSTOMER_PROFILE_H_
+#define CUSTOMER_PROFILE_H_
+
 class CustomerProfile {
     public:
         void update(transaction t);
@@ -17,3 +20,5 @@ class CustomerProfile {
         float onlinePurchasePercentage;
         vector<vendorType> vendors;
 };
+
+#endif

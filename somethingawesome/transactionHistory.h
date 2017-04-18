@@ -4,6 +4,9 @@
 
 using namespace std;
 
+#ifndef TRANSACTION_HISTORY_H_
+#define TRANSACTION_HISTORY_H_
+
 class TransactionHistory {
     public:
         void addTransaction(transaction t);
@@ -11,3 +14,5 @@ class TransactionHistory {
     private:
         vector<transaction> history;
 };
+
+#endif

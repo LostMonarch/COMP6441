@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
+CustomerProfile.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
+TransactionHistory.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
+card.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
+string
+-
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
 string
 -
@@ -22,9 +32,15 @@ vector
 transaction.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
+string
+-
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/main.cpp
 iostream
 -
+Customer.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
 CustomerProfile.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
 TransactionHistory.h
