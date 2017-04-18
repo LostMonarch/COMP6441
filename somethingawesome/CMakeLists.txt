@@ -3,11 +3,15 @@
 # CMake declarations
 cmake_minimum_required (VERSION 3.6)
 project (Awesome)
+add_compile_options(-std=c++11)
 
 # Pull in sources and headers
 set(SOURCES 
     main.cpp
     Bank.cpp
+    Customer.cpp
+    TransactionHistory.cpp
+    CustomerProfile.cpp
 )
 
 set(HEADERS

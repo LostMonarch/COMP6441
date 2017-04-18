@@ -12,9 +12,10 @@ using namespace std;
 
 class CustomerProfile {
     public:
+        CustomerProfile(int p);
         void update(transaction t);
     private:
-        int postcode;
+        int postCode;
         float averageSpend;
         float averageFrequency;
         float onlinePurchasePercentage;

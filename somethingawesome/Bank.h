@@ -17,8 +17,10 @@ class Bank {
         void start();
         void addFraudDetector(detectorTypeID id);
         void trainFromFile(string f);
+        void displayCustomerInfo();
     private:
         void detect();
+        vector<string> splitRegex(string &s, string delim);
 
         unordered_map<string, Customer> customers;
         FraudDetector detector;

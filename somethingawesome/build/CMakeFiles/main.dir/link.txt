@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Bank.cpp.o  -o main 
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Bank.cpp.o CMakeFiles/main.dir/Customer.cpp.o CMakeFiles/main.dir/TransactionHistory.cpp.o CMakeFiles/main.dir/CustomerProfile.cpp.o  -o main 

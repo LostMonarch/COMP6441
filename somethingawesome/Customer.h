@@ -9,18 +9,21 @@
 
 class Customer {
     public:
+        Customer(string n, int c, int p);
         void detect();
         void addTransaction(transaction t);
+        string getName();
     private:
         void updateProfile();
         void updateRisk();
         void notifyFraud();
 
+        // Members
         string name;
         Card creditCard;
-        TransactionHistory history;
+        TransactionHistory * history;
         float currentRisk;
-        CustomerProfile profile;
+        CustomerProfile * profile;
 };
 
 #endif

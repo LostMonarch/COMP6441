@@ -19,6 +19,8 @@ iterator
 -
 fstream
 -
+regex
+-
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
 Customer.h
@@ -30,6 +32,10 @@ string
 unordered_map
 -
 
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.cpp
+Customer.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
+
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.h
 CustomerProfile.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
@@ -39,6 +45,10 @@ card.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/card.h
 string
 -
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.cpp
+CustomerProfile.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.h
 string
@@ -51,6 +61,10 @@ transaction.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/FraudDetector.h
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.cpp
+TransactionHistory.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
 vector

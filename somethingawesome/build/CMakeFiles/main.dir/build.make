@@ -105,19 +105,97 @@ CMakeFiles/main.dir/Bank.cpp.o.provides: CMakeFiles/main.dir/Bank.cpp.o.requires
 CMakeFiles/main.dir/Bank.cpp.o.provides.build: CMakeFiles/main.dir/Bank.cpp.o
 
 
+CMakeFiles/main.dir/Customer.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Customer.cpp.o: ../Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Connor/Documents/COMP3441/src/somethingawesome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Customer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Customer.cpp.o -c /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.cpp
+
+CMakeFiles/main.dir/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Customer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.cpp > CMakeFiles/main.dir/Customer.cpp.i
+
+CMakeFiles/main.dir/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Customer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Connor/Documents/COMP3441/src/somethingawesome/Customer.cpp -o CMakeFiles/main.dir/Customer.cpp.s
+
+CMakeFiles/main.dir/Customer.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/Customer.cpp.o.requires
+
+CMakeFiles/main.dir/Customer.cpp.o.provides: CMakeFiles/main.dir/Customer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Customer.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/Customer.cpp.o.provides
+
+CMakeFiles/main.dir/Customer.cpp.o.provides.build: CMakeFiles/main.dir/Customer.cpp.o
+
+
+CMakeFiles/main.dir/TransactionHistory.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/TransactionHistory.cpp.o: ../TransactionHistory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Connor/Documents/COMP3441/src/somethingawesome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/TransactionHistory.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/TransactionHistory.cpp.o -c /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.cpp
+
+CMakeFiles/main.dir/TransactionHistory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/TransactionHistory.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.cpp > CMakeFiles/main.dir/TransactionHistory.cpp.i
+
+CMakeFiles/main.dir/TransactionHistory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/TransactionHistory.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.cpp -o CMakeFiles/main.dir/TransactionHistory.cpp.s
+
+CMakeFiles/main.dir/TransactionHistory.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/TransactionHistory.cpp.o.requires
+
+CMakeFiles/main.dir/TransactionHistory.cpp.o.provides: CMakeFiles/main.dir/TransactionHistory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TransactionHistory.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/TransactionHistory.cpp.o.provides
+
+CMakeFiles/main.dir/TransactionHistory.cpp.o.provides.build: CMakeFiles/main.dir/TransactionHistory.cpp.o
+
+
+CMakeFiles/main.dir/CustomerProfile.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/CustomerProfile.cpp.o: ../CustomerProfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Connor/Documents/COMP3441/src/somethingawesome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/CustomerProfile.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CustomerProfile.cpp.o -c /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.cpp
+
+CMakeFiles/main.dir/CustomerProfile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/CustomerProfile.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.cpp > CMakeFiles/main.dir/CustomerProfile.cpp.i
+
+CMakeFiles/main.dir/CustomerProfile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/CustomerProfile.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Connor/Documents/COMP3441/src/somethingawesome/CustomerProfile.cpp -o CMakeFiles/main.dir/CustomerProfile.cpp.s
+
+CMakeFiles/main.dir/CustomerProfile.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/CustomerProfile.cpp.o.requires
+
+CMakeFiles/main.dir/CustomerProfile.cpp.o.provides: CMakeFiles/main.dir/CustomerProfile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CustomerProfile.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/CustomerProfile.cpp.o.provides
+
+CMakeFiles/main.dir/CustomerProfile.cpp.o.provides.build: CMakeFiles/main.dir/CustomerProfile.cpp.o
+
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/Bank.cpp.o"
+"CMakeFiles/main.dir/Bank.cpp.o" \
+"CMakeFiles/main.dir/Customer.cpp.o" \
+"CMakeFiles/main.dir/TransactionHistory.cpp.o" \
+"CMakeFiles/main.dir/CustomerProfile.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/Bank.cpp.o
+main: CMakeFiles/main.dir/Customer.cpp.o
+main: CMakeFiles/main.dir/TransactionHistory.cpp.o
+main: CMakeFiles/main.dir/CustomerProfile.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Connor/Documents/COMP3441/src/somethingawesome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Connor/Documents/COMP3441/src/somethingawesome/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +205,9 @@ CMakeFiles/main.dir/build: main
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Bank.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Customer.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/TransactionHistory.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/CustomerProfile.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

@@ -150,6 +150,87 @@ Bank.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Bank.cpp.s
 .PHONY : Bank.cpp.s
 
+Customer.o: Customer.cpp.o
+
+.PHONY : Customer.o
+
+# target to build an object file
+Customer.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Customer.cpp.o
+.PHONY : Customer.cpp.o
+
+Customer.i: Customer.cpp.i
+
+.PHONY : Customer.i
+
+# target to preprocess a source file
+Customer.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Customer.cpp.i
+.PHONY : Customer.cpp.i
+
+Customer.s: Customer.cpp.s
+
+.PHONY : Customer.s
+
+# target to generate assembly for a file
+Customer.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Customer.cpp.s
+.PHONY : Customer.cpp.s
+
+CustomerProfile.o: CustomerProfile.cpp.o
+
+.PHONY : CustomerProfile.o
+
+# target to build an object file
+CustomerProfile.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CustomerProfile.cpp.o
+.PHONY : CustomerProfile.cpp.o
+
+CustomerProfile.i: CustomerProfile.cpp.i
+
+.PHONY : CustomerProfile.i
+
+# target to preprocess a source file
+CustomerProfile.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CustomerProfile.cpp.i
+.PHONY : CustomerProfile.cpp.i
+
+CustomerProfile.s: CustomerProfile.cpp.s
+
+.PHONY : CustomerProfile.s
+
+# target to generate assembly for a file
+CustomerProfile.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CustomerProfile.cpp.s
+.PHONY : CustomerProfile.cpp.s
+
+TransactionHistory.o: TransactionHistory.cpp.o
+
+.PHONY : TransactionHistory.o
+
+# target to build an object file
+TransactionHistory.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TransactionHistory.cpp.o
+.PHONY : TransactionHistory.cpp.o
+
+TransactionHistory.i: TransactionHistory.cpp.i
+
+.PHONY : TransactionHistory.i
+
+# target to preprocess a source file
+TransactionHistory.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TransactionHistory.cpp.i
+.PHONY : TransactionHistory.cpp.i
+
+TransactionHistory.s: TransactionHistory.cpp.s
+
+.PHONY : TransactionHistory.s
+
+# target to generate assembly for a file
+TransactionHistory.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TransactionHistory.cpp.s
+.PHONY : TransactionHistory.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +270,15 @@ help:
 	@echo "... Bank.o"
 	@echo "... Bank.i"
 	@echo "... Bank.s"
+	@echo "... Customer.o"
+	@echo "... Customer.i"
+	@echo "... Customer.s"
+	@echo "... CustomerProfile.o"
+	@echo "... CustomerProfile.i"
+	@echo "... CustomerProfile.s"
+	@echo "... TransactionHistory.o"
+	@echo "... TransactionHistory.i"
+	@echo "... TransactionHistory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

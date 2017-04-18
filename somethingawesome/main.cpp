@@ -2,6 +2,8 @@
 #include <iostream>
 #include "Bank.h"
 
+#define PRINT_SUMMARY 0
+
 int main(int argc, char* argv[]) {
     Bank * b = new Bank();
 
@@ -10,6 +12,11 @@ int main(int argc, char* argv[]) {
 
     // Use the first command line argument to add a list of customers to the bank
     b->customersFromFile(argv[1]);
+
+    // Summarise customers who are now part of the system
+    #if PRINT_SUMMARY == 1
+    b->displayCustomerInfo();
+    #endif
 
     return 0;
 }
