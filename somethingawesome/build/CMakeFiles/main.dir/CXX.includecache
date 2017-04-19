@@ -83,10 +83,12 @@ Bank.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/Bank.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/transaction.h
-ctime
--
 vendorType.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h
+transactionTime.h
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transactionTime.h
+
+/Users/Connor/Documents/COMP3441/src/somethingawesome/transactionTime.h
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/vendorType.h
 

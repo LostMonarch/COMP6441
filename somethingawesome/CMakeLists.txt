@@ -23,6 +23,7 @@ set(HEADERS
      Customer.h
      Bank.h
      FraudDetector.h
+     transactionTime.h
 )
 
 # Include headers

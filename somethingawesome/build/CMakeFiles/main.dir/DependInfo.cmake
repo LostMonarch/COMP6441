@@ -22,6 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Customer.h"
   "../Bank.h"
   "../FraudDetector.h"
+  "../transactionTime.h"
   )
 
 # Targets to which this target links.
