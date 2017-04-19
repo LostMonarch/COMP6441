@@ -10,6 +10,7 @@ typedef struct {
     int postcode;
     int value;
     transactionTime when;
+    transactionDate day;
     bool online;
     vendorType vendor;
 } transaction;

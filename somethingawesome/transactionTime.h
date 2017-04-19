@@ -7,4 +7,9 @@ typedef struct {
     int minutes;
 } transactionTime;
 
+typedef struct {
+    int day;
+    int year;
+} transactionDate;
+
 #endif
