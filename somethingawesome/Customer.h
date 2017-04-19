@@ -13,6 +13,7 @@ class Customer {
         void detect();
         void addTransaction(transaction t);
         string getName();
+        int getCard();
     private:
         void updateProfile();
         void updateRisk();

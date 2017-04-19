@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Bank.h"
 
-#define PRINT_SUMMARY 0
+#define PRINT_SUMMARY 1
 
 int main(int argc, char* argv[]) {
     Bank * b = new Bank();
@@ -17,6 +17,12 @@ int main(int argc, char* argv[]) {
     #if PRINT_SUMMARY == 1
     b->displayCustomerInfo();
     #endif
+
+    // Learn about the behaviour of each customer using a list of transactions - also known as customer profiling
+
+
+    // Train the fraud detection system using a list of transactions whose fraudulence is already known - (the machine learning part)
+
 
     return 0;
 }

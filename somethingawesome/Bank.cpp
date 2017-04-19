@@ -57,16 +57,21 @@ void Bank::customersFromFile(string f) {
 
 // Add a new Customer to the Bank
 void Bank::addCustomer(Customer &c) {
-    customers.emplace(c.getName(), c);
+    customers.emplace(c.getCard(), c);
 }
 
 // Display a summary of the customers currently in the bank
 void Bank::displayCustomerInfo() {
-    string customerName;
+    int cardNumber;
     Customer * customer;
     for (auto i = customers.begin(); i != customers.end(); i++) {
-        customerName = i->first;
+        cardNumber = i->first;
         customer = & i->second;
-        cout << "Key: " << customerName << " Name: " << customer->getName() << "\n";
+        cout << "Card Number: " << to_string(cardNumber) << " Name: " << customer->getName() << "\n";
     }
+}
+
+// Use file containing a list of transactions to learn about the 'normal' behaviour of each customer - a.k.a customer profiling
+void Bank::learnAboutCustomers(string f) {
+
 }

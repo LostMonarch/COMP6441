@@ -13,6 +13,8 @@ using namespace std;
 class Bank {
     public:
         void customersFromFile(string f);
+        void learnAboutCustomers(string f);
+        void trainDetectorFromFile(string f);
         void addCustomer(Customer &c);
         void start();
         void addFraudDetector(detectorTypeID id);
@@ -22,7 +24,7 @@ class Bank {
         void detect();
         vector<string> splitRegex(string &s, string delim);
 
-        unordered_map<string, Customer> customers;
+        unordered_map<int, Customer> customers;
         FraudDetector detector;
 };
 

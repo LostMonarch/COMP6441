@@ -15,3 +15,8 @@ Customer::Customer(string n, int c, int p) {
 string Customer::getName() {
     return name;
 }
+
+// Returns the Customer's credit card number'
+int Customer::getCard() {
+    return creditCard.number;
+}
