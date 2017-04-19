@@ -1,50 +1,50 @@
 4   4001    75     12:35   02/2017      0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    24             11/2017      1   RETAIL_STANDARD
+4   4000    80             14/2017      1   RETAIL_STANDARD
 4   4001    40     13:57   16/2017      0   RETAIL_STANDARD
-4   4001    19     09:21   22/2017      0   RETAIL_STANDARD
-4   4000                                1   BILL
-4   4000                                1   RETAIL_STANDARD
+4   4001    190    09:21   22/2017      0   RETAIL_HIGH_END
+4   4000    47             28/2017      1   BILL
+4   4000    72             31/2017      1   RETAIL_STANDARD
 4   4002    67     19:02   34/2017      0   RETAIL_STANDARD
 4   4001    129    15:44   60/2017      0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    72             71/2017      1   RETAIL_STANDARD
 4   4001    58     10:12   74/2017      0   RETAIL_STANDARD
 4   4000    45     14:42   87/2017      1   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    91             89/2017      1   RETAIL_STANDARD
 4   4001    23     12:24   90/2017      0   RETAIL_STANDARD
 4   4000    90     11:46   101/2017     1   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
-4   4000                                1   BILL
+4   4000    35             105/2017     1   RETAIL_STANDARD
+4   4000    44             109/2017     1   BILL
 4   4001    49     10:30   114/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    58             122/2017     1   RETAIL_STANDARD
 4   4001    87     17:06   130/2017     0   RETAIL_STANDARD
 4   4001    148    08:10   138/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    23             156/2017     1   RETAIL_STANDARD
 4   4002    91     12:58   160/2017     0   RETAIL_STANDARD
 4   4000    50     13:31   174/2017     1   RETAIL_STANDARD
 4   4001    54     15:43   185/2017     0   RETAIL_STANDARD
-4   4000                                1   BILL
+4   4000    67             191/2017     1   BILL
 4   4001    32     20:46   200/2017     0   RETAIL_STANDARD
 4   4001    18     19:00   207/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    320            209/2017     1   RETAIL_HIGH_END
 4   4006    40     14:22   214/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    10             217/2017     1   RETAIL_STANDARD
 4   4001    92     10:49   228/2017     0   RETAIL_STANDARD
 4   4002    38     16:57   247/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    29             254/2017     1   RETAIL_STANDARD
 4   4001    20     11:51   269/2017     0   RETAIL_STANDARD
 4   4001    58     12:05   281/2017     0   RETAIL_STANDARD
-4   4000                                1   BILL
-4   4001    250    09:23   295/2017     0   RETAIL_STANDARD
+4   4000    45             292/2017     1   BILL
+4   4001    250    09:23   295/2017     0   RETAIL_HIGH_END
 4   4001    28     16:15   300/2017     0   RETAIL_STANDARD
 4   4006    86     07:31   305/2017     0   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    186            309/2017     1   RETAIL_STANDARD
 4   4001    45     08:06   312/2017     0   RETAIL_STANDARD
-4   4000    310    17:20   325/2017     1   RETAIL_STANDARD
-4   4000                                1   RETAIL_STANDARD
+4   4000    310    17:20   325/2017     1   RETAIL_HIGH_END
+4   4000    59             328/2017     1   RETAIL_STANDARD
 4   4001    83     14:31   330/2017     0   RETAIL_STANDARD
 4   4001    41     12:25   336/2017     0   RETAIL_STANDARD
-4   4000                                1   BILL
+4   4000    79             342/2017     1   BILL
 4   4002    69     10:57   347/2017     0   RETAIL_STANDARD
 4   4001    83     11:14   353/2017     0   RETAIL_STANDARD
 4   4000    48     17:23   360/2017     1   RETAIL_STANDARD
