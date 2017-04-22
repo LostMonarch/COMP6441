@@ -23,6 +23,9 @@ class Bank {
     private:
         void detect();
         vector<string> splitRegex(string &s, string delim);
+        transaction newTransactionFromString(string &s);
+        bool parseOnline(string &s);
+        vendorType parseVendorType(string &s);
 
         unordered_map<int, Customer> customers;
         FraudDetector detector;

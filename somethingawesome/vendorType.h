@@ -3,7 +3,7 @@
 #define VENDORTYPE_H_
 
 typedef enum vendors {
-    RETIAL_STANDARD,
+    RETAIL_STANDARD,
     RETAIL_HIGH_END,
     CASH_WITHDRAWAL,
     HOSPITALITY_STANDARD,
