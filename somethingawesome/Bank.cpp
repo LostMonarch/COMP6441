@@ -113,12 +113,15 @@ transaction Bank::newTransactionFromString(string &s) {
 // Given a string representing the 'online' component of a transaction, return the corresponding boolean value
 bool Bank::parseOnline(string &s) {
     bool ret;
+    boost::algorithm::trim(s);
     ret = s == "0" ? false : true;
     return ret;
 }
 
 // Given a string representing the 'vendor type' component of a transaction, return the corresponding enum value
 vendorType Bank::parseVendorType(string &s) {
+    boost::algorithm::trim(s);
+
     if(s.compare("RETAIL_STANDARD")) {        
         return RETAIL_STANDARD;
     } else if(s.compare("RETAIL_HIGH_END")) {
