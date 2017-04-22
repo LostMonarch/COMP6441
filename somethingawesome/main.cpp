@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
     cout << "Starting credit card fraud detector...\n";
 
     // Use the first command line argument to add a list of customers to the bank
+    cout << "Adding customers...\n";    
     b->customersFromFile(argv[1]);
 
     // Summarise customers who are now part of the system
@@ -19,7 +20,10 @@ int main(int argc, char* argv[]) {
     #endif
 
     // Learn about the behaviour of each customer using a list of transactions - also known as customer profiling
+    b->learnAboutCustomers(argv[2]);
 
+    // Summarise what the bank has learnt about the customers' individual spending patterns
+    
 
     // Train the fraud detection system using a list of transactions whose fraudulence is already known - (the machine learning part)
 

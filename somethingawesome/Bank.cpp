@@ -73,5 +73,37 @@ void Bank::displayCustomerInfo() {
 
 // Use file containing a list of transactions to learn about the 'normal' behaviour of each customer - a.k.a customer profiling
 void Bank::learnAboutCustomers(string f) {
+    ifstream input(f);
+    vector<string> v;
+    vector<string> tokens;
+	back_insert_iterator< vector<string> > backInserter = back_inserter(v);
 
+    // Read transaction list line by line
+    for(string line; getline(input, line);) {
+        *(backInserter++) = line;
+    }
+
+    // Go through each customer entry, and create a new customer every time
+    vector<string>::iterator i;
+    int cardNumber;
+    int postCode;
+    int volume;
+    vector<string> timeComponents;
+    vector<string> dateComponents;
+    transactionTime time;
+    transactionDate date;
+    bool online;
+    vendorType vendor;
+    transaction newTransaction;
+
+    for(i = begin(v); i != end(v); ++i) {
+        string s = * i;
+        tokens = splitRegex(s, "\\s+");
+        cardNumber = atoi(tokens[0].c_str());
+        postCode = atoi(tokens[1].c_str());
+        volume = atoi(tokens[2].c_str());
+        timeComponents = splitRegex(tokens[3], ":");
+        dateComponents = splitRegex(tokens[3], "/");
+        cout << to_string(cardNumber) << " " << to_string(postCode) << " " << to_string(volume) << " " << to_string(timeComponents.size()) << " " << to_string(dateComponents.size()) << "\n"; 
+    }
 }
