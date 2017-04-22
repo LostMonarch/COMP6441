@@ -103,7 +103,7 @@ void Bank::learnAboutCustomers(string f) {
         postCode = atoi(tokens[1].c_str());
         volume = atoi(tokens[2].c_str());
         timeComponents = splitRegex(tokens[3], ":");
-        dateComponents = splitRegex(tokens[3], "/");
-        cout << to_string(cardNumber) << " " << to_string(postCode) << " " << to_string(volume) << " " << to_string(timeComponents.size()) << " " << to_string(dateComponents.size()) << "\n"; 
+        dateComponents = splitRegex(tokens[4], "\\/");
+        
     }
 }
