@@ -122,24 +122,54 @@ bool Bank::parseOnline(string &s) {
 vendorType Bank::parseVendorType(string &s) {
     boost::algorithm::trim(s);
 
-    if(s.compare("RETAIL_STANDARD")) {        
+    if(!s.compare("RETAIL_STANDARD")) {
         return RETAIL_STANDARD;
-    } else if(s.compare("RETAIL_HIGH_END")) {
+    } else if(!s.compare("RETAIL_HIGH_END")) {
         return RETAIL_HIGH_END;
-    }  else if(s.compare("CASH_WITHDRAWAL")) {
+    }  else if(!s.compare("CASH_WITHDRAWAL")) {
         return CASH_WITHDRAWAL;
-    } else if(s.compare("HOSPITALITY_STANDARD")) {
+    } else if(!s.compare("HOSPITALITY_STANDARD")) {
         return HOSPITALITY_STANDARD;
-    } else if(s.compare("HOSPITALITY_HIGH_END")) {
+    } else if(!s.compare("HOSPITALITY_HIGH_END")) {
         return HOSPITALITY_HIGH_END;
-    } else if(s.compare("BILL")) {  
+    } else if(!s.compare("BILL")) {  
         return BILL;
-    } else if(s.compare("HOUSEHOLD")) {
+    } else if(!s.compare("HOUSEHOLD")) {
         return HOUSEHOLD;
     } else {
         cout << "Unrecognised vendor type!\n";
         return RETAIL_STANDARD;
     }
+}
+
+// Given a vendor type, return a string representing it
+string Bank::vendorTypeToString(vendorType v) {
+    switch(v) {
+        case RETAIL_STANDARD:
+            return "RETAIL_STANDARD";
+        case RETAIL_HIGH_END:
+            return "RETAIL_HIGH_END";
+        case CASH_WITHDRAWAL:
+            return "CASH_WITHDRAWAL";
+        case HOSPITALITY_STANDARD:
+            return "HOSPITALITY_STANDARD";
+        case HOSPITALITY_HIGH_END:
+            return "HOSPITALITY_HIGH_END";
+        case BILL:
+            return "BILL";
+        case HOUSEHOLD:
+            return "HOUSEHOLD";
+        default:
+            cout << "Unknown enum value\n";
+            return "UNKNOWN";
+    }
+}
+
+// Given a boolean indicating whether or not a transaction was online, return a string representing it
+string Bank::onlineToString(bool o) {
+    string ret;
+    ret = o == true ? "Yes" : "No";
+    return ret;
 }
 
 // Use file containing a list of transactions to learn about the 'normal' behaviour of each customer - a.k.a customer profiling
@@ -160,6 +190,18 @@ void Bank::learnAboutCustomers(string f) {
     for(i = begin(v); i != end(v); ++i) {
         string s = * i;
         newTransaction = newTransactionFromString(s);
-
+        // Confirm that each transaction has been parsed correctly
+        cout << "----------------------\n";
+        cout << "Transaction:\n";
+        cout << "card: " << to_string(newTransaction.card) << "\n";
+        cout << "postcode: " << to_string(newTransaction.postcode) << "\n";
+        cout << "volume: " << to_string(newTransaction.value) << "\n";
+        cout << "time: " << to_string(newTransaction.when.hours) << ":" << to_string(newTransaction.when.minutes) << "\n";
+        cout << "date: " << to_string(newTransaction.day.day) << "/" << to_string(newTransaction.day.year) << "\n";
+        cout << "online: " << onlineToString(newTransaction.online) << "\n";
+        cout << "vendor type: " << vendorTypeToString(newTransaction.vendor) << "\n";       
     }
+
+    // For debugging purposes
+    cout << to_string(testCounter) << "\n";
 }
