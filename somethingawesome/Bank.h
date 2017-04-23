@@ -28,10 +28,11 @@ class Bank {
         vendorType parseVendorType(string &s);
         string onlineToString(bool o);
         string vendorTypeToString(vendorType v);
+        void displayTransactionSummary(transaction t);
+        void assignTransaction(transaction t);
 
         unordered_map<int, Customer> customers;
         FraudDetector detector;
-        int testCounter;
 };
 
 #endif

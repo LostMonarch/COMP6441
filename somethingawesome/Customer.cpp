@@ -16,7 +16,12 @@ string Customer::getName() {
     return name;
 }
 
-// Returns the Customer's credit card number'
+// Returns the Customer's credit card number
 int Customer::getCard() {
     return creditCard.number;
+}
+
+// Add a transaction to the customer's transaction history
+void Customer::addTransaction(transaction t) {
+    history->addTransaction(t);
 }

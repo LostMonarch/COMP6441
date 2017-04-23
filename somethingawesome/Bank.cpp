@@ -190,18 +190,26 @@ void Bank::learnAboutCustomers(string f) {
     for(i = begin(v); i != end(v); ++i) {
         string s = * i;
         newTransaction = newTransactionFromString(s);
-        // Confirm that each transaction has been parsed correctly
-        cout << "----------------------\n";
-        cout << "Transaction:\n";
-        cout << "card: " << to_string(newTransaction.card) << "\n";
-        cout << "postcode: " << to_string(newTransaction.postcode) << "\n";
-        cout << "volume: " << to_string(newTransaction.value) << "\n";
-        cout << "time: " << to_string(newTransaction.when.hours) << ":" << to_string(newTransaction.when.minutes) << "\n";
-        cout << "date: " << to_string(newTransaction.day.day) << "/" << to_string(newTransaction.day.year) << "\n";
-        cout << "online: " << onlineToString(newTransaction.online) << "\n";
-        cout << "vendor type: " << vendorTypeToString(newTransaction.vendor) << "\n";       
+        // Now that we have parsed the current transaction, assign it to the corresponding card holder's transaction history
+        assignTransaction(newTransaction);
     }
 
-    // For debugging purposes
-    cout << to_string(testCounter) << "\n";
+}
+
+// Given a transaction, display a summary of it's parameters
+void Bank::displayTransactionSummary(transaction t) {
+    cout << "----------------------\n";
+    cout << "Transaction:\n";
+    cout << "card: " << to_string(t.card) << "\n";
+    cout << "postcode: " << to_string(t.postcode) << "\n";
+    cout << "volume: " << to_string(t.value) << "\n";
+    cout << "time: " << to_string(t.when.hours) << ":" << to_string(t.when.minutes) << "\n";
+    cout << "date: " << to_string(t.day.day) << "/" << to_string(t.day.year) << "\n";
+    cout << "online: " << onlineToString(t.online) << "\n";
+    cout << "vendor type: " << vendorTypeToString(t.vendor) << "\n";       
+}
+
+// Assign a transaction to the corresponding card holder's transaction history
+void Bank::assignTransaction(transaction t) {
+    customers.at(t.card).addTransaction(t);
 }
