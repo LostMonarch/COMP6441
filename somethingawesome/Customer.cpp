@@ -25,3 +25,8 @@ int Customer::getCard() {
 void Customer::addTransaction(transaction t) {
     history->addTransaction(t);
 }
+
+// A simple sanity check to make sure transactions have been assigned properly
+void Customer::checkHistory() {
+    history->check();
+}

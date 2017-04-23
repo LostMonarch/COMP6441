@@ -14,6 +14,7 @@ class Customer {
         void addTransaction(transaction t);
         string getName();
         int getCard();
+        void checkHistory();
     private:
         void updateProfile();
         void updateRisk();

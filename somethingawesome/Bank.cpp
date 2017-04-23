@@ -194,6 +194,11 @@ void Bank::learnAboutCustomers(string f) {
         assignTransaction(newTransaction);
     }
 
+    // Now that all new transactions have been assigned, check that we have been successful so far
+    for (auto it : customers) {
+        Customer c = it.second;
+        
+    } 
 }
 
 // Given a transaction, display a summary of it's parameters

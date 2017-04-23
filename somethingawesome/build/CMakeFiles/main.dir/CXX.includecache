@@ -67,6 +67,8 @@ transaction.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.cpp
 TransactionHistory.h
 /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
+iostream
+-
 
 /Users/Connor/Documents/COMP3441/src/somethingawesome/TransactionHistory.h
 vector

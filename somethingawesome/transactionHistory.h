@@ -11,6 +11,7 @@ class TransactionHistory {
     public:
         void addTransaction(transaction t);
         void detect();
+        void check();
     private:
         vector<transaction> history;
 };
