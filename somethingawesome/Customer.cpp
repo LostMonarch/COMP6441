@@ -83,5 +83,8 @@ void Customer::profileCustomer() {
     // Summarise
     cout << "--------------------\nProfiling Summary\n--------------------\n";
     cout << "Customer: " << name << "\n";
-    
+    cout << "Average spend per transaction: " << to_string(averageSpend) << "\n";
+    cout << "Average number of days between transactions: " << to_string(averageFrequency) << "\n";
+    cout << "Percentage of purchases made online: " << to_string(onlinePurchasePercentage * 100) << "%\n";
+    cout << "Number of online purchases made in total: " << to_string(onlinePurchaseCounter) << "\n";
 }
