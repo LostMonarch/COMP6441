@@ -21,8 +21,8 @@ class Customer {
         void updateProfile();
         void updateRisk();
         void notifyFraud();
+        string vendorTypeToString(vendorType v);
         
-
         // Members
         string name;
         Card creditCard;

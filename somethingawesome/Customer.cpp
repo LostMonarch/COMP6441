@@ -55,11 +55,11 @@ void Customer::profileCustomer() {
         // Add to the total spend accumulator
         averageSpend = (float) (averageSpend + t.value);
         // Add the vendor type for this transaction to the list of vendors if it isn't already in the list
-        if(find(vendors.begin(), vendors.end(), t.vendor) != vendors.end()) {
+        if(find(vendors.begin(), vendors.end(), t.vendor) == vendors.end()) {
             vendors.push_back(t.vendor);
         }
         // Add the postcode for this transaction to the list of postcodes if it isn't already in the list
-        if(find(postCodes.begin(), postCodes.end(), t.postcode) != postCodes.end()) {
+        if(find(postCodes.begin(), postCodes.end(), t.postcode) == postCodes.end()) {
             postCodes.push_back(t.postcode);
         }
         // If the purchase was online, increment the total number of online purchases
@@ -78,13 +78,48 @@ void Customer::profileCustomer() {
     // To finish calculating averages, divide them by the total number of transactions in the customer's history
     averageSpend = averageSpend / getNumTransactions();
     averageFrequency = averageFrequency / getNumTransactions();
-    onlinePurchasePercentage = onlinePurchaseCounter / getNumTransactions();
+    onlinePurchasePercentage = (float) onlinePurchaseCounter / getNumTransactions();
 
-    // Summarise
+    // Summarise information for the user
     cout << "--------------------\nProfiling Summary\n--------------------\n";
     cout << "Customer: " << name << "\n";
     cout << "Average spend per transaction: " << to_string(averageSpend) << "\n";
     cout << "Average number of days between transactions: " << to_string(averageFrequency) << "\n";
     cout << "Percentage of purchases made online: " << to_string(onlinePurchasePercentage * 100) << "%\n";
-    cout << "Number of online purchases made in total: " << to_string(onlinePurchaseCounter) << "\n";
+    cout << "Commonly visited vendor types: ";
+    for(vendorType v : vendors) {
+         cout << vendorTypeToString(v) << " ";
+    }
+    cout << "\n";
+    cout << "Commonly visited postcodes: ";
+    for(int c : postCodes) {
+         cout << to_string(c) << " ";
+    }
+    cout << "\n";
+
+    // Finally, use the calculated information to populate the customer's profile
+    fill()
+}
+
+// Given a vendor type, return a string representing it
+string Customer::vendorTypeToString(vendorType v) {
+    switch(v) {
+        case RETAIL_STANDARD:
+            return "RETAIL_STANDARD";
+        case RETAIL_HIGH_END:
+            return "RETAIL_HIGH_END";
+        case CASH_WITHDRAWAL:
+            return "CASH_WITHDRAWAL";
+        case HOSPITALITY_STANDARD:
+            return "HOSPITALITY_STANDARD";
+        case HOSPITALITY_HIGH_END:
+            return "HOSPITALITY_HIGH_END";
+        case BILL:
+            return "BILL";
+        case HOUSEHOLD:
+            return "HOUSEHOLD";
+        default:
+            cout << "Unknown enum value\n";
+            return "UNKNOWN";
+    }
 }

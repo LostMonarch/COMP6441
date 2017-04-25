@@ -14,13 +14,14 @@ class CustomerProfile {
     public:
         CustomerProfile(int p);
         void update(transaction t);
-        void fill(int postcode, float spendAverage, float freqAverage, float onlinePercentage, vector<vendorType> &vendorList);
+        void fill(float spendAverage, float freqAverage, float onlinePercentage, vector<vendorType> &vendorList, vector<int> &codeList);
     private:
         int postCode;
         float averageSpend;
         float averageFrequency;
         float onlinePurchasePercentage;
         vector<vendorType> vendors;
+        vector<int> postcodes;
 };
 
 #endif
