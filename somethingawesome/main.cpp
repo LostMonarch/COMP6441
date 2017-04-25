@@ -23,11 +23,8 @@ int main(int argc, char* argv[]) {
     cout << "Using transaction history to learn about customers...\n";
     b->learnAboutCustomers(argv[2]);
 
-    // Summarise what the bank has learnt about the customers' individual spending patterns
-
-
     // Train the fraud detection system using a list of transactions whose fraudulence is already known - (the machine learning part)
-
+    
 
     return 0;
 }
