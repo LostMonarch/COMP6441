@@ -81,8 +81,10 @@ void Customer::profileCustomer() {
     onlinePurchasePercentage = (float) onlinePurchaseCounter / getNumTransactions();
 
     // Summarise information for the user
-    cout << "--------------------\nProfiling Summary\n--------------------\n";
+    cout << "------------------------------\nProfiling Summary            |\n------------------------------\n";
     cout << "Customer: " << name << "\n";
+    cout << "Card number: " << to_string(creditCard.number) << "\n";
+    cout << "Postcode: " << to_string(profile->getPostcode()) << "\n";
     cout << "Average spend per transaction: " << to_string(averageSpend) << "\n";
     cout << "Average number of days between transactions: " << to_string(averageFrequency) << "\n";
     cout << "Percentage of purchases made online: " << to_string(onlinePurchasePercentage * 100) << "%\n";
