@@ -98,7 +98,7 @@ void Customer::profileCustomer() {
     cout << "\n";
 
     // Finally, use the calculated information to populate the customer's profile
-    fill()
+    profile->fill(averageSpend, averageFrequency, onlinePurchasePercentage, vendors, postCodes);
 }
 
 // Given a vendor type, return a string representing it

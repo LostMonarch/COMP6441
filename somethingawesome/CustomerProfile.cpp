@@ -11,7 +11,6 @@ CustomerProfile::CustomerProfile(int p) {
 
 // Fill a customer profile with values for each parameter calculated during the customer profiling phase
 void CustomerProfile::fill(float spendAverage, float freqAverage, float onlinePercentage, vector<vendorType> &vendorList, vector<int> &codeList) {
-    postCode = postcode;
     averageSpend = spendAverage;
     averageFrequency = freqAverage;
     onlinePurchasePercentage = onlinePercentage;
