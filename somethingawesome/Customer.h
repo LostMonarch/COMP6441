@@ -15,10 +15,13 @@ class Customer {
         string getName();
         int getCard();
         void checkHistory();
+        void profileCustomer();
+        int getNumTransactions() { return history->getNumTransactions(); };
     private:
         void updateProfile();
         void updateRisk();
         void notifyFraud();
+        
 
         // Members
         string name;

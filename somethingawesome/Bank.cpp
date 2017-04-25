@@ -197,7 +197,7 @@ void Bank::learnAboutCustomers(string f) {
     // Now that all new transactions have been assigned, check that we have been successful so far
     for (auto it : customers) {
         Customer c = it.second;
-        
+        c.profileCustomer();
     } 
 }
 

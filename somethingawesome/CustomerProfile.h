@@ -14,6 +14,7 @@ class CustomerProfile {
     public:
         CustomerProfile(int p);
         void update(transaction t);
+        void fill(int postcode, float spendAverage, float freqAverage, float onlinePercentage, vector<vendorType> &vendorList);
     private:
         int postCode;
         float averageSpend;

@@ -12,4 +12,11 @@ typedef struct {
     int year;
 } transactionDate;
 
+typedef struct {
+    int minutes;
+    int hours;
+    int days;
+    int years;
+} timeDifference;
+
 #endif
